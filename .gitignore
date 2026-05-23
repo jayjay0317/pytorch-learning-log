@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PyTorch / ML model files
+*.pth
+*.pt
+*.ckpt
+models/
+checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# datasets
+data/
+datasets/
+
+# logs
+logs/
+runs/
+
+# OS
+.DS_Store
